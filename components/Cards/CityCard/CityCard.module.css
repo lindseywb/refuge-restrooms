@@ -1,0 +1,7 @@
+.city {
+    @apply col-span-1;
+
+    & a {
+        @apply py-6 text-center px-2 border-kimberly-300 border rounded block;
+    }
+}

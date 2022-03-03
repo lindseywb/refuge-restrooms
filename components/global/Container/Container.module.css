@@ -1,0 +1,14 @@
+.container {
+    @apply mx-auto;
+
+    width: 90%;
+    max-width: 960px;
+
+    &.wide {
+        max-width: 1200px;
+    }
+
+    &.gridContainer {
+        @apply md:grid grid-cols-3 gap-5;
+    }
+}

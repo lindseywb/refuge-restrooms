@@ -1,0 +1,3 @@
+.footer {
+    @apply text-lg mt-6 py-3 bg-kimberly-600 text-white;
+}
